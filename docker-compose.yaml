@@ -68,14 +68,14 @@ x-airflow-common:
     AIRFLOW__SMTP__SMTP_PASSWORD: ''
 
     #SMS için Twilio bilgileri
-    TWILIO_ACCOUNT_SID: ''
-    TWILIO_AUTH_TOKEN: ''
+    TWILIO_ACCOUNT_SID: AC3a2185a582ba0e6c3e59c8d5fb6877c5
+    TWILIO_AUTH_TOKEN: 04c2fb80b46adc22b2ebbaffc3307af2
     TWILIO_FROM_PHONE_NUMBER: ''
-    TWILIO_TO_PHONE_NUMBER: ''
+    TWILIO_TO_PHONE_NUMBER: +49 176 36346648
 
     #Randevu alınmak istenen idata ofisi: istanbul_altunizade, istanbul_gayrettepe, izmir
-    IDATA_OFFICE_VARIABLE_NAME: 'istanbul_altunizade'
-    IDATA_COUNTRY_VARIABLE_NAME: 'italya'
+    IDATA_OFFICE_VARIABLE_NAME: 'izmir'
+    IDATA_COUNTRY_VARIABLE_NAME: 'almanya'
 
     #Alert Modu: Test, Prod
     MODE: 'Test'
